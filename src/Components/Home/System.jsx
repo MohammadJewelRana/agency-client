@@ -38,7 +38,7 @@ const System = () => {
                 </p>
             </div>
 
-            <div className='grid grid-cols-1  md:grid-cols-3 gap-4 lg:gap-32  mt-12  place-items-center mx-12 h-96 '>
+            <div className='grid grid-cols-1  md:grid-cols-3 gap-4 lg:gap-32  mt-8 md:mt-2  place-items-center mx-12 h-96 '>
 
                 {
                     data.map(item =>
