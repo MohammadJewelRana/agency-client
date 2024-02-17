@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
-import img1 from "../assets/logo/s-logo-design-template-graphic-branding-element-free-vector.jpg";
-import { Link } from "react-router-dom";
+// import img1 from "../assets/logo/s-logo-design-template-graphic-branding-element-free-vector.jpg";
+// import { Link } from "react-router-dom";
 import { FaArrowRight, FaBars, FaCross, FaTimesCircle } from "react-icons/fa";
 import { HashLink } from "react-router-hash-link";
+import mainLogo from '../assets/logo/main.jpg'
+
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -43,7 +45,7 @@ const Navbar = () => {
                 <nav className="mx-12 flex items-center justify-between content-center ">
                     {/* logo  */}
                     <div className="flex items-center space-x-2">
-                        <img className="h-6 w-6 rounded-full" src={img1} alt="" />
+                        <img className="h-12 mt-1 w-12 rounded-full" src={mainLogo} alt="" />
                         <p className="inline-block font-semibold text-2xl">NEXCENT</p>
                     </div>
 

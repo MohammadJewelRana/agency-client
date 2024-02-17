@@ -16,7 +16,8 @@ import AuthProvider, { AuthContext } from './Provider/AuthProvider';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <AuthProvider>
+ 
+     <AuthProvider>
       
       <RouterProvider router={Router} />
 
