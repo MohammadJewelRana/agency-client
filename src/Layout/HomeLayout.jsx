@@ -13,9 +13,9 @@ const HomeLayout = () => {
 
 
     return (
-        <div>
+        <div className=''>
 
-           <Navbar></Navbar>
+           <Navbar ></Navbar>
             <Outlet> </Outlet>
 <Footer></Footer>
         </div>

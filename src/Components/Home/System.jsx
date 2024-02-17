@@ -33,7 +33,7 @@ const System = () => {
         <div className=' mx-auto ' id='about'>
 
             <div className='text-center '>
-                <h1 className='text-2xl md:text-4xl font-bold mb-4  max-w-2xl mx-auto mx-6'>Manage your entire community in a single system</h1>
+                <h1 className='text-2xl md:text-4xl font-bold mb-4 mx-[16px]     mx-auto md:mx-8'>Manage your entire community in a single system</h1>
                 <p className='text-gray-500 mx-12 '>Who is Nextcent suitable for?
                 </p>
             </div>

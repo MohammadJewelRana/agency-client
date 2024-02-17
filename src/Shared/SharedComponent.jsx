@@ -6,7 +6,7 @@ const SharedComponent = ({ image, heading, text, path }) => {
 
     return (
 
-        <div className=" flex flex-col md:flex md:flex-row mx-auto place-content-center md:gap-24 gap-4 mx-10 my-24" id={path}>
+        <div className=" flex flex-col md:flex md:flex-row mx-auto place-content-center md:gap-24 gap-4 mx-11 md:mx-10  mt-36  md:mt-12" id={path}>
             <div className="flex place-content-center items">
                 <img src={image} className=" " alt="" />
             </div>

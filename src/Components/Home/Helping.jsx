@@ -3,7 +3,7 @@ import logo from '../../assets/logo/download (1).jpg'
 
 const Helping = () => {
     return (
-        <div className='my-24 flex justify-between md:justify-center lg:justify-around  gap-36 items-center bg-gray-300 py-6 px-12' id='product'>
+        <div className='mt-24 flex justify-between md:justify-center lg:justify-around  gap-36 items-center bg-gray-300 py-6 px-12' id='product'>
 
 <div className=' grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-36  items-center justify-around'>  
             <div>

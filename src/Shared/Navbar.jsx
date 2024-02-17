@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import { FaArrowRight, FaBars, FaCross, FaTimesCircle } from "react-icons/fa";
 import { HashLink } from "react-router-hash-link";
 import mainLogo from '../assets/logo/main.jpg'
+import { Link } from "react-router-dom";
 
 
 const Navbar = () => {
@@ -40,8 +41,8 @@ const Navbar = () => {
     ];
  
     return (
-        <div className=" ">
-            <header className="w-full py-2 mt-4  md:bg-transparent fixed top-0 left-0 right-0 border-b  ">
+        <div className="bg-blue-600 ">
+            <header className="w-full py-6    bg-gray-200 fixed top-0 left-0 right-0 border-b  z-10 ">
                 <nav className="mx-12 flex items-center justify-between content-center ">
                     {/* logo  */}
                     <div className="flex items-center space-x-2">
@@ -105,9 +106,12 @@ const Navbar = () => {
                                 {navItems.map((item) => (
                                     <>
                                         <li className=" text-white p-4 text-center hover:bg-green-400 transition-all duration-300">
+{/*                                            
                                             <Link className="" to={item.path}>
                                                 {item.link}
-                                            </Link>
+                                            </Link> */}
+                                                       <HashLink className=""    smooth to={item.path} >  {item.link} </HashLink>
+
                                         </li>
                                     </>
                                 ))}
